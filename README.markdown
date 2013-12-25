@@ -23,3 +23,6 @@ Visit  http://projectfedena.org/install for detailed installation instruction.
 #Community Support:
 
 Visit www.projectfedena.org for community support.
+
+
+https://www.codeship.io/projects/096aa630-4f9e-0131-3aa8-72cbce82be43/status
