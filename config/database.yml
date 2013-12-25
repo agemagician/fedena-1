@@ -1,6 +1,6 @@
 development:
       host: <%=ENV['OPENSHIFT_MYSQL_DB_HOST']%>
-      adapter: mysql
+      adapter: mysql2
       database: <%=ENV['OPENSHIFT_APP_NAME']%>
       port: <%=ENV['OPENSHIFT_MYSQL_DB_PORT']%>
       socket:   <%=ENV['OPENSHIFT_MYSQL_DB_SOCKET']%>
@@ -9,7 +9,7 @@ development:
 
 test: &test
       host: <%=ENV['OPENSHIFT_MYSQL_DB_HOST']%>
-      adapter: mysql
+      adapter: mysql2
       database: <%=ENV['OPENSHIFT_APP_NAME']%>
       port: <%=ENV['OPENSHIFT_MYSQL_DB_PORT']%>
       socket:   <%=ENV['OPENSHIFT_MYSQL_DB_SOCKET']%>
@@ -18,7 +18,7 @@ test: &test
 
 production:
       host: <%=ENV['OPENSHIFT_MYSQL_DB_HOST']%>
-      adapter: mysql
+      adapter: mysql2
       database: <%=ENV['OPENSHIFT_APP_NAME']%>
       port: <%=ENV['OPENSHIFT_MYSQL_DB_PORT']%>
       socket:   <%=ENV['OPENSHIFT_MYSQL_DB_SOCKET']%>
